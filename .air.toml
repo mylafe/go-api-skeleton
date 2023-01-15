@@ -11,7 +11,7 @@ tmp_dir = "tmp"
   bin = "./tmp/main"
   # 只需要写你平常编译使用的shell命令。你也可以使用 `make`
   # Windows平台示例: cmd = "go build -o ./tmp/main.exe ."
-  cmd = "go build -o ./tmp/main ."
+  cmd = "go build -o ./tmp/main.exe ."
   # 如果文件更改过于频繁，则没有必要在每次更改时都触发构建。可以设置触发构建的延迟时间
   delay = 1000
   # 忽略这些文件扩展名或目录
@@ -50,8 +50,8 @@ tmp_dir = "tmp"
 
 [log]
   # 显示日志时间
-  time = false
+  time = true
 
 [misc]
   # 退出时删除tmp目录
-  clean_on_exit = false
+  clean_on_exit = true

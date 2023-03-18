@@ -1,8 +1,8 @@
-// Package user 存放用户 Model 相关逻辑
+// model
 package user
 
 import (
-    "his_service/app/models"
+    "go_api_skeleton/app/models"
 )
 
 // User 用户模型

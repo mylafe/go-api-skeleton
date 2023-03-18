@@ -1,8 +1,8 @@
 package bootstrap
 
 import (
-    "his_service/pkg/config"
-    "his_service/pkg/logger"
+    "go_api_skeleton/pkg/config"
+    "go_api_skeleton/pkg/logger"
 )
 
 // SetupLogger 初始化 Logger

@@ -3,7 +3,7 @@ package logger
 import (
     "context"
     "errors"
-    "his_service/pkg/helpers"
+    "go_api_skeleton/pkg/helpers"
     "path/filepath"
     "runtime"
     "strings"

@@ -2,20 +2,20 @@
 package auth
 
 import (
-	v1 "his_service/app/http/controllers/api/v1"
-	"his_service/app/models/user"
-	"his_service/app/requests"
-	"his_service/pkg/response"
+	v1 "go_api_skeleton/app/http/controllers/api/v1"
+	"go_api_skeleton/app/models/user"
+	"go_api_skeleton/app/requests"
+	"go_api_skeleton/pkg/response"
 
 	"github.com/gin-gonic/gin"
 )
 
-// SignupController 注册控制器
+// 注册控制器
 type SignupController struct {
 	v1.BaseAPIController
 }
 
-// IsPhoneExist 检测手机号是否被注册
+// 检测手机号是否存在
 func (sc *SignupController) IsPhoneExist(c *gin.Context) {
 	// 获取请求参数，并做表单验证
 	request := requests.SignupPhoneExistRequest{}
@@ -26,16 +26,5 @@ func (sc *SignupController) IsPhoneExist(c *gin.Context) {
 	//  检查数据库并返回响应
 	response.JSON(c, gin.H{
 		"exist": user.IsPhoneExist(request.Phone),
-	})
-}
-
-// IsEmailExist 检测邮箱是否已注册
-func (sc *SignupController) IsEmailExist(c *gin.Context) {
-	request := requests.SignupEmailExistRequest{}
-	if ok := requests.Validate(c, &request, requests.SignupEmailExist); !ok {
-		return
-	}
-	response.JSON(c, gin.H{
-		"exist": user.IsEmailExist(request.Email),
 	})
 }

@@ -1,8 +1,8 @@
 package bootstrap
 
 import (
-	"his_service/app/http/middlewares"
-	"his_service/routes"
+	"go_api_skeleton/app/http/middlewares"
+	"go_api_skeleton/routes"
 	"net/http"
 	"strings"
 

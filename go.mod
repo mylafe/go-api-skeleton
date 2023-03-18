@@ -1,4 +1,4 @@
-module his_service
+module go_api_skeleton
 
 go 1.18
 

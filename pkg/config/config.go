@@ -2,7 +2,7 @@
 package config
 
 import (
-	"his_service/pkg/helpers"
+	"go_api_skeleton/pkg/helpers"
 	"os"
 
 	"github.com/spf13/cast"

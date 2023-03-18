@@ -1,6 +1,6 @@
 package config
 
-import "his_service/pkg/config"
+import "go_api_skeleton/pkg/config"
 
 func init() {
     config.Add("log", func() map[string]interface{} {

@@ -1,8 +1,8 @@
 package middlewares
 
 import (
-	"his_service/pkg/logger"
-	"his_service/pkg/response"
+	"go_api_skeleton/pkg/logger"
+	"go_api_skeleton/pkg/response"
 	"net"
 	"net/http/httputil"
 	"os"

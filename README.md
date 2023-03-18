@@ -1,7 +1,19 @@
-# his_service
+# go-api-skeleton
 
-#### 介绍
-麦澜德与院方HIS系统对接方案_外发
+#### 简介
 
-#### 软件架构
+golang服务接口脚手架搭建，让开发更快速专注业务开发
 
+#### 使用的库
+
+```
+github.com/gin-gonic/gin v1.8.2
+github.com/spf13/cast v1.5.0
+github.com/spf13/viper v1.14.0
+github.com/thedevsaddam/govalidator v1.9.10
+go.uber.org/zap v1.24.0
+gopkg.in/natefinch/lumberjack.v2 v2.0.0
+gorm.io/driver/mysql v1.4.5
+gorm.io/driver/sqlite v1.4.4
+gorm.io/gorm v1.24.3
+```

@@ -2,7 +2,7 @@
 package app
 
 import (
-	"his_service/pkg/config"
+	"go_api_skeleton/pkg/config"
 )
 
 func IsLocal() bool {

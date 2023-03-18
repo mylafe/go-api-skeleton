@@ -3,8 +3,8 @@ package middlewares
 
 import (
 	"bytes"
-	"his_service/pkg/helpers"
-	"his_service/pkg/logger"
+	"go_api_skeleton/pkg/helpers"
+	"go_api_skeleton/pkg/logger"
 	"io"
 	"time"
 

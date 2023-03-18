@@ -3,9 +3,9 @@ package bootstrap
 import (
 	"errors"
 	"fmt"
-	"his_service/pkg/config"
-	"his_service/pkg/database"
-	"his_service/pkg/logger"
+	"go_api_skeleton/pkg/config"
+	"go_api_skeleton/pkg/database"
+	"go_api_skeleton/pkg/logger"
 	"time"
 
 	"gorm.io/driver/mysql"

@@ -4,6 +4,12 @@
 
 golang服务接口脚手架
 
+#### 安装
+
+```
+git clone git@github.com:mylafe/go-api-skeleton.git
+```
+
 #### 三方库
 
 ```
